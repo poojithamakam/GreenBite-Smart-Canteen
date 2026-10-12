@@ -1,0 +1,30 @@
+**/node_modules/
+**/dist/
+**/target/
+**/.env
+.idea/
+.vscode/
+*.log
+# Environment secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Dependencies and build output
+node_modules/
+dist/
+target/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+database/
+**/.env
+*/.env.
+!**/.env.example
+**/application-local.properties
+**/application-prod.properties
+smart-canteen-backend/src/main/resources/application.properties
+smart-canteen-backend/src/main/resources/application-prod.properties
